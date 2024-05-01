@@ -8,6 +8,6 @@ const Div2 = React.createElement('div', {}, [P1, A]);
 
 const P2 = React.createElement('p', {}, 'i am second paragrapy inside 3rd Div');
 const Div3 = React.createElement('div', {}, P2);
-const Div4 = React.createElement('div', {}, H1, Div, Div2, Div3);
+const Div4 = React.createElement('div', {}, [H1, Div, Div2, Div3]);
 
 ReactDOM.render(Div4, document.getElementById('root'));
