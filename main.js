@@ -10,4 +10,4 @@ const P2 = React.createElement('p', {}, 'i am second paragrapy inside 3rd Div');
 const Div3 = React.createElement('div', {}, P2);
 const Div4 = React.createElement('div', {}, [H1, Div, Div2, Div3]);
 
-ReactDOM.render(Div4, document.getElementById('root'));
+ReactDOM.createRoot(document.getElementById('root')).render(Div4)
